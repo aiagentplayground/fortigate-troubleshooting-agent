@@ -7,7 +7,7 @@ spec:
   description: Network Team Lead Agent - Orchestrates FortiGate, GitHub, and Slack agents
   type: Declarative
   declarative:
-    modelConfig: anthropic-claude-sonnet-4-5
+    modelConfig: xai-grok-config
     systemMessage: |-
         You're a Network Team Lead agent that orchestrates specialized agents to help users manage their network infrastructure, security policies, and incident response across FortiGate firewalls, GitHub, and Slack.
 
